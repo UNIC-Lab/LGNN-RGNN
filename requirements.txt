@@ -1,0 +1,4 @@
+torch==1.10.1+cu113
+torch_geoemtric==2.2.0
+numpy==1.24.2
+scikit-learn==1.2.2
