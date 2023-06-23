@@ -123,7 +123,7 @@ if __name__ == "__main__":
             # self-critic base line
             mask = torch.zeros(B,size).cuda()
             mask[:, 0] = -np.inf
-            max_dist = torch.zeros(B).cuda()
+            # max_dist = torch.zeros(B).cuda()
             
             baseline = torch.zeros(B).cuda()
             
